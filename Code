@@ -15,7 +15,7 @@ wn.bgcolor("green")
 wn.setup(width=600, height=600)
 wn.tracer(0) 
 
-# Ekranın sınırları için duvarlar
+# Walls
 walls = turtle.Turtle()
 walls.speed(0)
 walls.color("white")
@@ -36,7 +36,7 @@ head.penup()
 head.goto(0,0)
 head.direction = "stop"
 
-# Snake food
+# Food
 food = turtle.Turtle()
 food.speed(0)
 food.shape("circle")
